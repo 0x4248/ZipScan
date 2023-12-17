@@ -9,7 +9,7 @@ python3 src/__main__.py <ZIPFILE>
 ```
 
 >[!WARNING]
-> You need to make sure that the zip file is not password protected
+> You need to make sure that the zip file is not password protected. The program wil not run if it is.
 
 This will generate a report in the current directory called `report.md`
 
