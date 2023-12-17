@@ -66,10 +66,12 @@ if __name__ == "__main__":
                 add_to_findings(file_path, "File is massive over 1GB. Size: " + str(size) + " bytes.")
             if size < 100:
                 add_to_findings(file_path, "File is tiny under 100 bytes. Size: " + str(size) + " bytes.")
+                
     f = open("report.md", "w")
     f.write("# ZipScan Report\n\n")
     f.write("Zip file: `" + zip_file + "`\n\n")
     f.write("Number of files: `" + str(len(file_info)) + "`\n\n")
+
     f.write("## Files:\n\n")
     for file in file_info:
         mime_long_array = file[2].split(",")
