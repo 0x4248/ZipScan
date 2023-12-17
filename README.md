@@ -8,7 +8,7 @@ Scans a zip and generates a report of the files inside and any findings
 python3 src/__main__.py <ZIPFILE>
 ```
 
->**Note:**
+>[!WARNING]
 > You need to make sure that the zip file is not password protected
 
 This will generate a report in the current directory called `report.md`
