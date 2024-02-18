@@ -66,6 +66,10 @@ if __name__ == "__main__":
                 add_to_findings(file_path, "File is massive over 1GB. Size: " + str(size) + " bytes.")
             if size < 100:
                 add_to_findings(file_path, "File is tiny under 100 bytes. Size: " + str(size) + " bytes.")
+            if "executable" in mime_type:
+                add_to_findings(file_path, "File is an executable.")
+            if "script" in mime_type:
+                add_to_findings(file_path, "File is a script.")
                 
     f = open("report.md", "w")
     f.write("# ZipScan Report\n\n")
