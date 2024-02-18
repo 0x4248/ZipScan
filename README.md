@@ -11,6 +11,9 @@ python3 src/__main__.py <ZIPFILE>
 >[!WARNING]
 > You need to make sure that the zip file is not password protected. The program wil not run if it is.
 
+>[!NOTE]
+> If the zip is massive, the program may take a while to run.
+
 This will generate a report in the current directory called `report.md`
 
 ## Licence
