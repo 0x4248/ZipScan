@@ -1,8 +1,8 @@
 # zipscan
 # Scans a zip and generates a report of the files inside and any findings
-# Github: https://www.github.com/lewisevans2007/ZipScan
+# Github: https://www.github.com/0x4248/ZipScan
 # Licence: GNU General Public License v3.0
-# By: Lewis Evans
+# By: 0x4248
 
 import sys
 import zipfile
